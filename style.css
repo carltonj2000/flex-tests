@@ -1,0 +1,179 @@
+/* section 5 */
+
+#section5 > .a {
+  display: flex;
+  width: 500px;
+  border: 1px solid rgb(139, 96, 168);
+}
+
+#section5 > .a > * {
+  flex: 0 0 auto;
+  width: 200px;
+  border: 2px dotted rgb(96, 139, 168);
+}
+
+#section5 > .b {
+  display: flex;
+  width: 500px;
+  border: 1px solid rgb(139, 96, 168);
+}
+
+#section5 > .b > * {
+  flex: 0 1 auto;
+  width: 200px;
+  border: 2px dotted rgb(96, 139, 168);
+}
+
+#section5 > .c {
+  display: flex;
+  width: 400px;
+  border: 1px solid rgb(139, 96, 168);
+}
+
+#section5 > .c > * {
+  flex: 1 1 auto;
+  border: 2px dotted rgb(96, 139, 168);
+}
+
+#section5 > .d {
+  display: flex;
+  width: 500px;
+  border: 1px solid rgb(139, 96, 168);
+}
+
+#section5 > .d > * {
+  width: 200px;
+  border: 2px dotted rgb(96, 139, 168);
+}
+
+#section5 > .d > .one {
+  flex: 1 1 auto;
+}
+
+#section5 > .d > .two {
+  flex: 1 0 auto;
+}
+
+#section5 > .d > .three {
+  flex: 1 4 auto;
+}
+
+/* section 4 */
+
+#section4 > .a {
+  display: flex;
+  width: 500px;
+  border: 1px solid rgb(139, 96, 168);
+}
+
+#section4 > .a > * {
+  flex: 1 1 auto;
+  border: 2px dotted rgb(96, 139, 168);
+}
+
+#section4 > .b {
+  display: flex;
+  width: 500px;
+  border: 1px solid rgb(139, 96, 168);
+}
+
+#section4 > .b > * {
+  flex: 1 1 0;
+  border: 2px dotted rgb(96, 139, 168);
+}
+
+#section4 > .c {
+  display: flex;
+  width: 500px;
+  border: 1px solid rgb(139, 96, 168);
+}
+
+#section4 > .c > * {
+  border: 2px dotted rgb(96, 139, 168);
+}
+
+#section4 > .c > .one {
+  flex: 1 1 0;
+}
+
+#section4 > .c > .two {
+  flex: 1 1 0;
+}
+
+#section4 > .c > .three {
+  flex: 2 1 0;
+}
+
+/* section 3 */
+
+#section3 > .a {
+  display: flex;
+  border: 1px solid rgb(139, 96, 168);
+}
+
+#section3 > .a :first-child {
+  width: 150px;
+  border: 2px dotted rgb(96, 139, 168);
+}
+
+#section3 > .a > * {
+  flex: 0 0 auto;
+  border: 2px dotted rgb(96, 139, 168);
+}
+
+#section3 > .b {
+  display: flex;
+  border: 1px solid rgb(139, 96, 168);
+  background-color: lightblue;
+}
+
+#section3 > .b :first-child {
+  width: 150px;
+  border: 2px dotted rgb(96, 139, 168);
+}
+
+#section3 > .b > * {
+  flex: 0 0 0;
+  border: 2px dotted rgb(96, 139, 168);
+}
+
+/* section 2 */
+
+#section2 > .a {
+  display: flex;
+  border: 1px solid rgb(139, 96, 168);
+  max-width: 500px;
+}
+
+#section2 > .a > div {
+  width: 100px;
+  border: 2px dotted rgb(96, 139, 168);
+}
+
+#section2 > .b {
+  display: flex;
+  border: 1px solid rgb(139, 96, 168);
+  max-width: 500px;
+}
+
+#section2 > .b > div {
+  min-width: 200px;
+  border: 2px dotted rgb(96, 139, 168);
+}
+
+/* section 1 */
+
+#section1 {
+  width: 450px;
+  border: 1px solid rgb(139, 96, 168);
+}
+
+#section1 .min-content {
+  width: min-content;
+  border: 2px dotted rgb(96, 139, 168);
+}
+
+#section1 .max-content {
+  width: max-content;
+  border: 2px dotted rgb(96, 139, 168);
+}
